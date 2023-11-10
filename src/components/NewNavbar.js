@@ -7,11 +7,15 @@ const NewNavbar = () => {
     <>
       <Navbar>
         <Container className="containerClass">
-          <Navbar.Brand href="/" style={{ color: "darkgoldenrod" }}>
+          <Navbar.Brand
+            href="/"
+            //
+            className="navBrand"
+          >
             Explore Hampi
           </Navbar.Brand>
 
-          <Nav className="me-auto">
+          <Nav className="navbar">
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/location">Location</Nav.Link>
             <Nav.Link href="/plan">Plan</Nav.Link>
