@@ -1,4 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=DM+Sans:opsz,wght@9..40,200&family=Kurale&display=swap');
 .container-style{
     height: 100%;
+    /* width:100%; */
     position:relative;
+}
+.navbar{
+    font-family: 'Concert One', cursive;
+    color:white !important;
+    font-size: 18px;
+}
+.navBrand{
+    font-size: 25px!important;
+    color:white!important;
+
 }
