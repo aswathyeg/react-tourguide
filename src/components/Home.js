@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Home.css";
 import imageSlide from "./data";
-import "react-awesome-slider/dist/styles.css";
+
 import photo1 from "./assets/photo1.avif";
 import NewNavbar from "./NewNavbar";
 import Container from "react-bootstrap/Container";
