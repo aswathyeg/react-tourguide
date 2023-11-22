@@ -1,6 +1,35 @@
+ 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=DM+Sans:opsz,wght@9..40,200&family=Kanit:wght@200&family=Kurale&display=swap');
+.container-style{
+    height: 100%;
+    /* width:100%; */
+    position:relative;
+}
+.navbar{
+    font-family: 'Kanit';
+    color:white !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navBrand{
+    font-size: 28px!important;
+    color:white!important;
+
+}
+ 
  .App {
   text-align: center;
   height: 100vh;
     background-color: antiquewhite;
+}
+.navbarMain{
+  position: sticky;
+  top:0;
+  background: transparent !important;
+}
+.navbarMain.active{
+ background:  linear-gradient(90deg,rgb(66,2,194)0%,rgb(0,78,194)100%);
+
 }
 
