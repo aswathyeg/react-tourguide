@@ -23,7 +23,7 @@ const Home = () => {
     <div className="container-style">
       <div style={bgImageStyle}>
         {" "}
-        <NewNavbar />
+        {/* <NewNavbar /> */}
         <BrowserRouter>
           <Routes>
             <Route path="/location" element={<Location />} />

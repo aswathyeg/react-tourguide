@@ -1,17 +1,27 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=DM+Sans:opsz,wght@9..40,200&family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=DM+Sans:opsz,wght@9..40,200&family=Kanit:wght@200&family=Kurale&display=swap');
 .container-style{
-    height: 100%;
+    /* height: 100%; */
     /* width:100%; */
-    position:relative;
+    /* position:relative; */
 }
 .navbar{
-    font-family: 'Concert One', cursive;
+    font-family: 'Kanit';
     color:white !important;
     font-size: 18px;
+    font-weight: bold;
 }
 .navBrand{
-    font-size: 25px!important;
-    color:white!important;
+    font-size: 28px!important;
+    color:blue!important;
 
 }
+.navbarMain{
+    position: sticky;
+    top:0;
+    background: rgba(55, 55, 216, 0.415) !important;
+  }
+  .navbarMain.active{
+   background:  linear-gradient(90deg,rgb(66,2,194)0%,rgb(0,78,194)100%);
+  
+  }
