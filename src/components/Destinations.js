@@ -8,6 +8,7 @@ import photo4 from "./assets/photo4.avif";
 import photo5 from "./assets/photo5.avif";
 import photo6 from "./assets/photo6.avif";
 import photo7 from "./assets/photo7.jpg";
+import NewNavbar from "./NewNavbar";
 import "aos/dist/aos.css";
 
 import Card from "./Card";
@@ -18,7 +19,7 @@ const Destinations = () => {
   }, []);
   return (
     <div>
-      <section className="py-4 py-lg-5 container">
+      <section className="py-6 py-lg-4 container">
         <h1
           className="text-center mt3"
           style={{ fontFamily: "Kanit ", fontSize: 28 }}
@@ -29,28 +30,28 @@ const Destinations = () => {
       <section className="py-3 py-lg-2 container">
         <div className="row">
           <Card
-            aos="fade-up"
+            aos="fade-left"
             aos_offset="100"
             img={photo1}
             title="title"
             desc="desc"
           />
           <Card
-            aos="fade-up"
+            aos="fade-left"
             aos_offset="100"
             img={photo8}
             title="title"
             desc="desc"
           />
           <Card
-            aos="fade-up"
+            aos="fade-left"
             aos_offset="100"
             img={photo3}
             title="title"
             desc="desc"
           />
           <Card
-            aos="flip-up"
+            aos="fade-left"
             aos_offset="100"
             img={photo4}
             title="title"
@@ -71,14 +72,14 @@ const Destinations = () => {
             desc="desc"
           />
           <Card
-            aos="zoom-in"
+            aos="fade-left"
             aos_offset="100"
             img={photo4}
             title="title"
             desc="desc"
           />
           <Card
-            aos="zoom-in"
+            aos="fade-left"
             aos_offset="100"
             img={photo7}
             title="title"
