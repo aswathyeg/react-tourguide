@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 const NewNavbar = () => {
   return (
     <>
-      <Navbar>
+      <Navbar className="navbarMain">
         <Container className="containerClass">
           <Navbar.Brand
             href="/"
