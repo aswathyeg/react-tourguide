@@ -33,57 +33,57 @@ const Destinations = () => {
             aos="fade-left"
             aos_offset="100"
             img={photo1}
-            title="title"
-            desc="desc"
+            title="Stone chariot"
+            description="The celebrated Stone chariot inside the Vijaya vittala temple complex"
           />
           <Card
             aos="fade-left"
             aos_offset="100"
             img={photo8}
-            title="title"
-            desc="desc"
+            title="Vijaya vittala temple"
+            description="A section of Vijaya vittala temple"
           />
           <Card
             aos="fade-left"
             aos_offset="100"
             img={photo3}
-            title="title"
-            desc="desc"
+            title="Hemkuta hill"
+            description="Remains of temples at Hemkuta hill"
           />
           <Card
             aos="fade-left"
             aos_offset="100"
             img={photo4}
-            title="title"
-            desc="desc"
+            title="Sule bazaar"
+            description="Ancient ruins of Hampi"
           />
           <Card
             aos="fade-left"
             aos_offset="100"
             img={photo5}
-            title="title"
-            desc="desc"
+            title="Lottus mahal"
+            description="The elegantly built Lottus mahal"
           />
           <Card
             aos="fade-left"
             aos_offset="100"
             img={photo6}
-            title="title"
-            desc="desc"
+            title="Vittala temple ruins"
+            description="Pillers inside Vittala temple"
           />
           <Card
             aos="fade-left"
             aos_offset="100"
             img={photo4}
-            title="title"
-            desc="desc"
+            title="Sule bazaar"
+            description="Ancient ruins of Hampi"
           />
           <Card
             aos="fade-left"
             aos_offset="100"
             img={photo7}
-            title="title"
-            desc="desc"
+            title="Sreekrishna temple"
+            description="Another temple ruin of Hampi"
           />
         </div>
       </section>
