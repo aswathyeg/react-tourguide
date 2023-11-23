@@ -10,11 +10,10 @@ import NewNavbar from "./components/NewNavbar";
 function App() {
   return (
     <div>
-      <NewNavbar />
       <Home />
+      <Destinations />
       {/* <Route path="/location" element={<Location />} />
           <Route path="/books" element={<Books />} /> */}
-      <Destinations />
     </div>
   );
 }
