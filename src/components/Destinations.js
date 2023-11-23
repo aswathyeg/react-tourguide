@@ -58,7 +58,7 @@ const Destinations = () => {
             desc="desc"
           />
           <Card
-            aos="zoo-min"
+            aos="fade-left"
             aos_offset="100"
             img={photo5}
             title="title"
