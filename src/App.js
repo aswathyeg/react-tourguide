@@ -7,10 +7,12 @@ import Books from "./components/Books";
 import Location from "./components/Location";
 import Destinations from "./components/Destinations";
 import NewNavbar from "./components/NewNavbar";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
       {/* <NewNavbar /> */}
+      {/* <Navbar /> */}
       <Home />
       <Destinations />
       {/* <Route path="/location" element={<Location />} />
