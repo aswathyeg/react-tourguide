@@ -50,10 +50,10 @@ animatedBody{
   } */
   .animatedCard .imgBx{
   position: absolute;
-  top: 7px;
-  left: 7px;
-  bottom: 7px;
-  right: 7px;
+  top: 6px;
+  left: 6px;
+  bottom: 6px;
+  right: 6px;
   background: #222;
   transition: 0.5s;
   z-index: 1;
