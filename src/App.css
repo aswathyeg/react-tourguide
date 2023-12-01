@@ -1,10 +1,15 @@
  
  
-
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=DM+Sans:opsz,wght@9..40,200&family=Kanit:wght@200&family=Kurale&display=swap');
  .App {
   text-align: center;
   /* height: 100vh; */
     /* background-color: antiquewhite; */
+}
+.row{
+  font-family: 'Kanit';
+  font-size: 18px;
+
 }
 
 
