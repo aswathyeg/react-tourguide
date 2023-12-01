@@ -1,6 +1,6 @@
 const imageSlide = [
   {
-    url: "photo1.jpg",
+    url: "photo7.jpg",
     title: "photo1",
     body: "photo1body",
   },

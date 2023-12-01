@@ -8,6 +8,7 @@ import Location from "./components/Location";
 import Destinations from "./components/Destinations";
 import NewNavbar from "./components/NewNavbar";
 import Navbar from "./components/Navbar";
+import Activities from "./components/Activities";
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       {/* <Navbar /> */}
       <Home />
       <Destinations />
+      <Activities />
       {/* <Route path="/location" element={<Location />} />
           <Route path="/books" element={<Books />} /> */}
     </div>
