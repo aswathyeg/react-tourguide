@@ -1,12 +1,14 @@
 import React from "react";
 import "./Activities.css";
 import photo1 from "./assets/photo1.avif";
-
+import climbing from "./assets/climbing.avif";
+import cycling from "./assets/cycling.avif";
+import temple from "./assets/temple.avif";
 import { Container } from "react-bootstrap";
 
 const Activities = (props) => {
   return (
-    <div>
+    <div className="activitiesBody">
       <section className="py-6 py-lg-4 container">
         <h1
           className="text-center mt3"
@@ -15,9 +17,9 @@ const Activities = (props) => {
           Popular Activities
         </h1>
       </section>
-      <Container className="subComponentsContainer">
-        {props.text ? <h4 className="titleCard">Writings</h4> : null}
-        <br></br>
+      <Container>
+        {/* {props.text ? <h4 className="titleCard">Writings</h4> : null}
+        <br></br> */}
         <body>
           <div class="box">
             <div
@@ -29,12 +31,10 @@ const Activities = (props) => {
               //   }
             >
               <div class="imgBx">
-                <img src={photo1} alt="images" />
+                <img src={climbing} alt="images" />
               </div>
               <div class="details">
-                <h2>
-                  An overview of data visualisation using Chart.js in React
-                </h2>
+                <h2>Rock climbing</h2>
               </div>
             </div>
 
@@ -47,11 +47,11 @@ const Activities = (props) => {
               //   }
             >
               <div class="imgBx">
-                <img src={photo1} alt="images" />
+                <img src={cycling} alt="images" />
               </div>
               <div class="details">
                 <h2>
-                  An introduction to state management
+                  Cycling
                   {/* <span>Producer</span> */}
                 </h2>
               </div>
@@ -65,21 +65,22 @@ const Activities = (props) => {
               //     )
               //   }
             >
-              {/* <div class="imgBx">
-                <img src={useReducer} alt="images" />
+              <div class="imgBx">
+                <img src={temple} alt="images" />
               </div>
               <div class="details">
-                <h2>A brief overview of useReducer hook in React</h2>
-              </div> */}
+                <h2>Visit riuns of old temples</h2>
+              </div>
             </div>
             {/* <div className="navtop" /> */}
-            <div
+
+            {/* <div
               class="animatedCard subComponentsContainer"
-              //   onClick={() =>
-              //     window.open(
-              //       "https://aswathyeg.medium.com/overview-of-react-routing-a5ce0f1c33ba"
-              //     )
-              //   }
+                onClick={() =>
+                  window.open(
+                    "https://aswathyeg.medium.com/overview-of-react-routing-a5ce0f1c33ba"
+                  )
+                }
             >
               <div class="imgBx">
                 <img src={photo1} alt="images" />
@@ -90,11 +91,11 @@ const Activities = (props) => {
             </div>
             <div
               class="animatedCard subComponentsContainer"
-              //   onClick={() =>
-              //     window.open(
-              //       "https://aswathyeg.medium.com/introduction-to-cypress-part-1-8950db7ec711"
-              //     )
-              //   }
+                onClick={() =>
+                  window.open(
+                    "https://aswathyeg.medium.com/introduction-to-cypress-part-1-8950db7ec711"
+                  )
+                }
             >
               <div class="imgBx">
                 <img src={photo1} alt="images" />
@@ -105,11 +106,11 @@ const Activities = (props) => {
             </div>
             <div
               class="animatedCard subComponentsContainer"
-              //   onClick={() =>
-              //     window.open(
-              //       "https://aswathyeg.medium.com/cypress-installation-and-execution-875e173f3167"
-              //     )
-              //   }
+                onClick={() =>
+                  window.open(
+                    "https://aswathyeg.medium.com/cypress-installation-and-execution-875e173f3167"
+                  )
+                }
             >
               <div class="imgBx">
                 <img src={photo1} alt="images" />
@@ -118,6 +119,7 @@ const Activities = (props) => {
                 <h2>An introduction on how to install and execute Cypress</h2>
               </div>
             </div>
+          </div> */}
           </div>
         </body>
       </Container>

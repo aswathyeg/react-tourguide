@@ -33,7 +33,8 @@ const Destinations = () => {
             aos="fade-left"
             aos_offset="100"
             img={photo1}
-            title="Stone chariot"
+            title
+            className="Stone chariot"
             description="The celebrated Stone chariot inside the Vijaya vittala temple complex"
           />
           <Card
