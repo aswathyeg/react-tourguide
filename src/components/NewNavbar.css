@@ -7,7 +7,7 @@
     
 }
 .navbarHome{
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     /* color:white !important; */
     font-size: 18px;
     font-weight: bold;
@@ -26,8 +26,10 @@
     display: flex !important;
     justify-content: center !important;
      */
+     
   }
   .navbar.active{
    background:  linear-gradient(90deg,rgb(2, 146, 194)0%,rgb(104, 236, 153)100%) !important;
   
   }
+  
