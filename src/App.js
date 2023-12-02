@@ -9,6 +9,7 @@ import Destinations from "./components/Destinations";
 import NewNavbar from "./components/NewNavbar";
 import Navbar from "./components/Navbar";
 import Activities from "./components/Activities";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
       <Home />
       <Destinations />
       <Activities />
+      <Footer/>
       {/* <Route path="/location" element={<Location />} />
           <Route path="/books" element={<Books />} /> */}
     </div>
