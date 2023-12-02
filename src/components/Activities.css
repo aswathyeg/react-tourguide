@@ -104,6 +104,10 @@ animatedBody{
    }
    .activitiesBody{
     background: linear-gradient(90deg,rgb(2, 146, 194)0%,rgb(104, 236, 153)100%) !important;
+    min-height:55vh;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content:center !important; */
 
    }
    
