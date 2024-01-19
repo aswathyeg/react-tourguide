@@ -11,16 +11,21 @@
     /* color:white !important; */
     font-size: 18px;
     font-weight: bold;
+    color:white!important
 }
 .navBrand{
     font-size: 28px!important;
     color:white!important;
 
 }
+.nav-link{
+    color:white!important
+}
 .navbar{
     position: sticky !important;
     top:0 !important;
     background: transparent !important;
+    
     /* z-index: 999 !important;
     height: 80px !important;
     display: flex !important;
